@@ -1,0 +1,10 @@
+version: "3.3"
+services:
+  node_devel_environment:
+    build: .
+    container_name: node-docker
+    ports:
+      - 8080:3000
+    volumes:
+      - ./working:/home/working
+      - ./app:/home/app
