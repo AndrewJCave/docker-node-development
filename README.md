@@ -13,8 +13,6 @@ Use your favourite Git client to clone the repo
 For you 'command line addicts' use the command line to clone the repo
 
 
-docker-compose run --rm -e TMR_CONFIG_DIR=/app/ --service-ports node_devel_environment
-
 ## First boot 
 
 This is very simple, using docker-compose execute the following command from the root of this repository:
