@@ -30,7 +30,9 @@ The dockerfile provides some default settings suitable for most use cases - e.g.
 
 ### Run with optional settings
 To define an additional environment variable you could use the following command:
+
 `docker-compose run --rm -e TMR_CONFIG_DIR=/app/ --service-ports node_devel_environment`
 
 To change the web container port number, say - expose the container to port 4000  you could use the following command:
+
 `docker-compose run --rm -p 4000:3000 node_devel_environment`
